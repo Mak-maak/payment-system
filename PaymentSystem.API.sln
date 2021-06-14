@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A81953CD-2052-4EAC-814A-D19465230FB2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentSystem.Common", "PaymentSystem.Common\PaymentSystem.Common.csproj", "{9B30102F-0763-4037-BFCA-C8A171AADA00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentSystem.Common", "Common\PaymentSystem.Common\PaymentSystem.Common.csproj", "{AC6D4231-7D6F-46C5-BEE9-ABBB4C294D45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystem.Common.APIModel", "PaymentSystem.Common.APIModel\PaymentSystem.Common.APIModel.csproj", "{5F046FED-96E3-4C37-B9FB-3F5AA0C67B17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentSystem.Common.APIHelper", "Common\PaymentSystem.Common.APIHelper\PaymentSystem.Common.APIHelper.csproj", "{DA9FDCD1-C101-434F-812F-2939EDD949D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystem.Common.APIHelper", "PaymentSystem.Common.APIHelper\PaymentSystem.Common.APIHelper.csproj", "{2B7538FF-0A78-4B05-9F43-666BE36283D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentSystem.Common.APIModel", "Common\PaymentSystem.Common.APIModel\PaymentSystem.Common.APIModel.csproj", "{0F39CA2F-0AC2-4F75-AE56-F161A544F972}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,26 +17,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9B30102F-0763-4037-BFCA-C8A171AADA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B30102F-0763-4037-BFCA-C8A171AADA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B30102F-0763-4037-BFCA-C8A171AADA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B30102F-0763-4037-BFCA-C8A171AADA00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F046FED-96E3-4C37-B9FB-3F5AA0C67B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F046FED-96E3-4C37-B9FB-3F5AA0C67B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F046FED-96E3-4C37-B9FB-3F5AA0C67B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F046FED-96E3-4C37-B9FB-3F5AA0C67B17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B7538FF-0A78-4B05-9F43-666BE36283D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B7538FF-0A78-4B05-9F43-666BE36283D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B7538FF-0A78-4B05-9F43-666BE36283D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B7538FF-0A78-4B05-9F43-666BE36283D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6D4231-7D6F-46C5-BEE9-ABBB4C294D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6D4231-7D6F-46C5-BEE9-ABBB4C294D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6D4231-7D6F-46C5-BEE9-ABBB4C294D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6D4231-7D6F-46C5-BEE9-ABBB4C294D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9FDCD1-C101-434F-812F-2939EDD949D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9FDCD1-C101-434F-812F-2939EDD949D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9FDCD1-C101-434F-812F-2939EDD949D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9FDCD1-C101-434F-812F-2939EDD949D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F39CA2F-0AC2-4F75-AE56-F161A544F972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F39CA2F-0AC2-4F75-AE56-F161A544F972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F39CA2F-0AC2-4F75-AE56-F161A544F972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F39CA2F-0AC2-4F75-AE56-F161A544F972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9B30102F-0763-4037-BFCA-C8A171AADA00} = {A81953CD-2052-4EAC-814A-D19465230FB2}
-		{5F046FED-96E3-4C37-B9FB-3F5AA0C67B17} = {A81953CD-2052-4EAC-814A-D19465230FB2}
-		{2B7538FF-0A78-4B05-9F43-666BE36283D5} = {A81953CD-2052-4EAC-814A-D19465230FB2}
+		{AC6D4231-7D6F-46C5-BEE9-ABBB4C294D45} = {A81953CD-2052-4EAC-814A-D19465230FB2}
+		{DA9FDCD1-C101-434F-812F-2939EDD949D3} = {A81953CD-2052-4EAC-814A-D19465230FB2}
+		{0F39CA2F-0AC2-4F75-AE56-F161A544F972} = {A81953CD-2052-4EAC-814A-D19465230FB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76899BCF-F6A5-4162-BAA7-646035333A2C}
